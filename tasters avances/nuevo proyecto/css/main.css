@@ -1,0 +1,92 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.elemento{
+	background-color: #00FF00;
+	height: 30px;
+	border-color: black;
+	border-style: solid;
+	margin-bottom: 20px;
+}
+
+
+/*  Body  */
+body{
+	background-color: gray;
+	color: white;
+	font-family: Helvetica,Arial;
+	font-size: 10px;
+}
+figure{
+
+}
+figure img{
+	height: auto;
+	width: 100%;
+}
+/*  Header  */
+header{
+	background-color: blue;
+
+}
+header figure {
+	display: inline-block;
+	 vertical-align: middle;
+
+}
+header h1{
+font-size: 15px;
+}
+
+header h2{
+font-size: 13px;
+display: inline-block;
+
+}
+
+#headerTittle{
+	display: inline-block;
+}
+.nav{
+	margin-top: 20px;
+background-color: pink;
+	
+}
+nav{
+	text-align: center;
+}
+nav ul li{
+	display: inline-block;
+}
+.mensaje{
+	margin-top:20px;
+}
+
+
+
+/*------CargarImagen--------*/
+#cargarImagen{
+	width: 100%;
+	height: 100%;
+	background-color: red;
+}
+
+
+#holder { border: 10px dashed #ccc; width: 300px; min-height: 300px; margin: 20px auto;}
+#holder.hover { border: 10px dashed #0c0; }
+#holder img { display: block; margin: 10px auto; }
+#holder p { margin: 10px; font-size: 14px; }
+progress { width: 100%; }
+progress:after { content: '%'; }
+.fail { background: #c00; padding: 2px; color: #fff; }
+.hidden { display: none !important;}
+
+
+
+
+
+
+
+
